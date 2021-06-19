@@ -1,0 +1,29 @@
+
+.nav {
+    background-color: #eeeeee;
+}
+.nav li {
+    padding: 10px 20px;
+}
+.footer {
+    background-color: #eeeeee;
+    padding: 10px 20px;
+    text-align: center;
+}
+.fenkai {
+    margin: 10px 10px;
+}
+
+.item {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.item .panel-title {
+    padding-left: 20px;
+}
+
+.item .panel-title a {
+    font-size: medium;
+    font-weight: bold;
+}

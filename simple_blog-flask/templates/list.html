@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <h3>文章列表</h3>
+    </div>
+    <div class="container">
+        {% for item in posts %}
+            <div class="panel panel-default item">
+                <div class="panel-title">
+                    <a href="{{url_for('article', article_id=item['id'])}}">{{item['title']}}</a>
+                </div>
+                <div class="panel-body">
+                    {{item['timestamp']}}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
